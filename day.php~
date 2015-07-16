@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="tarot, ask tarot, tarot reading" />
-  <meta name="author" content="Sergey" />
+  <meta name="author" content="Super User" />
   <meta name="description" content="Ask the tarot" />
   <title>Free tarot reading</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -53,14 +53,14 @@ var a = "<?php echo $i ?>";
 	document.getElementById('button').addEventListener( 'click', function(){
     
 		document.getElementById('card').toggleClassName('flip');
-	jQuery("#zzz").html("<h4>Your answer is:</h4><b>"+sarray[a]+"</b><hr><p>"+yesno[a]+"<hr><p>"+gen[a]);
+	jQuery("#zzz").html("<h4>Your card meaning is:</h4><hr><p>"+day[a]+"<hr><p>"+gen[a]);
   }, false);
 }
 
 window.addEventListener( 'DOMContentLoaded', init, false);
 $(document).ready(function(){
   $("#ref-butn").click(function(){
- document.getElementById("frm").reset(); 
+ //document.getElementById("frm").reset(); 
  location.reload();
   });
 });
@@ -92,20 +92,20 @@ $(document).ready(function(){
      style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-9236344000383274"
      data-ad-slot="4491102341"></ins>
-			<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-			</script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </div>
     <div class="col-md-4">
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- tarot320x90 -->
-	  <ins class="adsbygoogle"
+<ins class="adsbygoogle"
      style="display:inline-block;width:320px;height:90px"
      data-ad-client="ca-pub-9236344000383274"
      data-ad-slot="5012479542"></ins>
-		<script>
-		(adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     </div>
   </div>
   <div class="row header">
@@ -128,7 +128,7 @@ $(document).ready(function(){
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
-              <li><a href="#"></a></li>
+              
               
             </ul>
             
@@ -140,19 +140,11 @@ $(document).ready(function(){
   <!--  Content Area-->
   <div class="row content">
     <div class="col-md-4 col-sm-6">
-      <p><h4>This spread is for those times when you have a specific question that has to be addressed immediately - burning question.</h4></p>
-      <h3>Ask the Tarot!</h3>
-<p>Have a question about life, love, family, home, business — or just about anything? Ask the tarot! Just type your question in the box below and click the "Ask the Tarot!" button, and a reading just for you will be provided, featuring one of the beautiful cards from Raider Wait Tarot Deck.</p>
+      <p><h4>Our free online Tarot card readings are to be considered as a guide only. Interpreting the Tarot takes many years of practice; depending upon the way in which the cards fall or are laid out in a spread has great bearing on their individual meaning.  The readings and meanings given are for entertainment purposes only.</h4></p>
+      <h3>Card of a Day</h3>
+<p>The Tarot Card of the Day will give you an idea of what your day might look like today.  If you don’t like what it has to say, maybe changing your mindset to something more positive or taking some sort of action will give you a better outlook.  If the card is good, then keep the path you’re on</p>
 
-<form role="form" id='frm'>
-<div class="form-group">
-<label for="exampleInputEmail1">Question</label>
-<p align="center"><textarea class="form-control" rows="3"></textarea></p>
-</div>
-<center>
-<button type="reset" class="btn btn-default">Clear question</button>
-</center>
-</form>
+
 <br>
 <center>
 <button class="btn btn-default" id="ref-butn">New reading!</button>
@@ -169,13 +161,13 @@ $(document).ready(function(){
         </div>
 
      </div>
-		<div>
-         <input type="button" value="Ask the Tarot" id="button" />
-		</div>
+<div>
+         <input type="button" value="Look card of a Day" id="button" />
+</div>
     </div>
 
     <div class="col-md-4 col-sm-6">
-      <h3>Answer meaning</h3>
+      <h3>Card meaning</h3>
       
 <div id="zzz"> </div>
 

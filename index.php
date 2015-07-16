@@ -208,7 +208,7 @@ $(document).ready(function(){
   </div> <!--  Footer Area-->
   <div class="row footer">
     <div class="col-xs-12 text-center">
-      <p>&copy; 2015 Workprogramming.com</p>
+      <p>&copy; <a href="http://www.workprogramming.com">2015 Workprogramming.com</a></p>
     </div>
   </div>
   

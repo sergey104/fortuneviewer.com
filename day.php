@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="tarot, ask tarot, tarot reading" />
-  <meta name="author" content="Super User" />
+  <meta name="author" content="Sergey" />
   <meta name="description" content="Ask the tarot" />
   <title>Free tarot reading</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -200,7 +200,7 @@ $(document).ready(function(){
   </div> <!--  Footer Area-->
   <div class="row footer">
     <div class="col-xs-12 text-center">
-      <p>&copy; 2015 Workprogramming.com</p>
+      <p>&copy; <a href="http://www.workprogramming.com">2015 Workprogramming.com</a></p>
     </div>
   </div>
   

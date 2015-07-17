@@ -21,6 +21,15 @@ body,
   transition-duration: .5s;
   transition: all 1s linear;  
 }
+.card1 {
+  width: 240px;
+  height: 400px;
+  margin: 20px;
+  background: #efefef;
+  position: absolute;
+  transition-duration: .5s;
+  transition: all 1s linear;  
+}
 /* установим фон для карт */
 .cardAK {
   background: url(../img/A.png);
@@ -35,6 +44,5 @@ body,
 }
 /* перемещение и масштабирование элемента DOM */
 .moveAndScale {
- -moz-transform: rotate3d(0,0,1,15deg);
-  transform: translate3d(150px,150px,0) scale3d(1.5, 1.5, 2) 
+  transform: rotate3d(0,0,1,15deg) translate3d(150px,150px,0) scale3d(1.5, 1.5, 2) 
 }

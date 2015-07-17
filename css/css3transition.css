@@ -21,6 +21,7 @@ body,
   transition-duration: .5s;
   transition: all 1s linear;  
 }
+
 /* установим фон для карт */
 .cardAK {
   background: url(../img/A.png);

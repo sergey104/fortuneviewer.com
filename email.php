@@ -129,10 +129,10 @@ $(document).ready(function(){
           </div>
           <div class="collapse navbar-collapse" id="demo-navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Ask Tarot</a></li>
+              <li><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
               <li><a href="three.php">Three cards Tarot reading</a></li>
-              <li><a href="email.php">Free email reading</a></li>
+              <li class="active"><a href="email.php">Free email reading</a></li>
               <li><a href="contact.php">Contact</a></li>
               <li><a href="#"></a></li>
               
@@ -146,43 +146,42 @@ $(document).ready(function(){
   <!--  Content Area-->
   <div class="row content">
     <div class="col-md-4 col-sm-6">
-      <p><h4>This spread is for those times when you have a specific question that has to be addressed immediately - burning question.</h4></p>
-      <h3>Ask the Tarot!</h3>
-<p>Have a question about life, love, family, home, business — or just about anything? Ask the tarot! Just type your question in the box below and click the "Ask the Tarot!" button, and a reading just for you will be provided, featuring one of the beautiful cards from Raider Wait Tarot Deck.</p>
+      <p><h4>EMAIL READINGS FOR FREE</h4></p>
+      <p>Do you have a burning, shimmering, highly-specific QUESTION?
 
-<form role="form" id='frm' ">
-<div class="form-group">
-<label for="exampleInputEmail1">Question</label>
-<p align="center"><textarea class="form-control" rows="3""></textarea></p>
-</div>
-<center>
-<button type="reset" class="btn btn-default">Clear question</button>
-</center>
-</form>
-<br>
-<center>
-<button class="btn btn-default" id="ref-butn">New reading!</button>
-</center>
+      <p>I offer 1-on-1 Tarot readings via email
+      <h3>What to do:</h3>
+<p>Email your question to <b>asktarot@fortuneviewer.com.</b> <p>Please be as clear, concise, and specific as possible. Include your full name, birthdate, time & place of birth (if possible). If you’re comfortable including a photo of yourself, that’s very helpful.
+
+<p>You will receive an answer to your question(s) within 36 hours. <p>If you ask on a Saturday, you will receive your answer within 60 hours.
+
+If you don’t receive a reply within 36 hours, please check the Spam / Trash / Promotions folders in your inbox, just in case my email got filtered there by mistake.
+
+Still don’t see anything? Please email me and I’ll get you sorted out. Thank you!
+
+Go forth and make best choices.</p>
+
+
+
 </div>
 
     <div class="col-md-4 col-sm-6 text-center ">
       <p><div class="container1" id="container1">
         <div id="card">
-	    <figure class="back"></figure>
-	    
-	    <figure class="front-<?php echo $i?>"></figure> 
-
+	     <img src="/img/17_Star.jpg" alt="Smiley face" height="400" width="240"> 
         </div>
 
      </div>
 		<div>
-         <input type="button" value="Ask the Tarot" id="button" />
+         
 		</div>
     </div>
 
     <div class="col-md-4 col-sm-6">
-      <h3>Answer meaning</h3>
+    
+      <h3>Our Partners</h3>
       
+      <a href="http://workprogramming.com"><img src="/img/wp.png" height="35" width="35">   Workprogramming software</a> 
 <div id="zzz"> </div>
 
     </div>

@@ -6,8 +6,8 @@
 
 	margin: 50px auto 20px 50px;
 	position:  relative;
-	width: 240px;
-	height: 400px;
+	width: 180px;
+	height: 300px;
 	/* задаем глубину сцене */
 	-webkit-perspective: 600px; /* webkit */
 	-moz-perspective: 600px; /* mozilla */

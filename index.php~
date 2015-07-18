@@ -113,6 +113,7 @@ $(document).ready(function(){
   <div class="row header">
     <div class="col-xs-12 text-center">
       <h1>Free Tarot Reading</h1>
+      <h3>Soon - Card of a Day on Android</h3>
     </div>
   </div>
   <div class="row navigation-bar">

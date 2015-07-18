@@ -127,10 +127,11 @@ $(document).ready(function(){
           </div>
           <div class="collapse navbar-collapse" id="demo-navbar-collapse">
             <ul class="nav navbar-nav">
-              <li class="active"><a href="index.php">Ask Tarot</a></li>
+              <li><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
               <li><a href="three.php">Three cards Tarot reading</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="email.php">Free email reading</a></li>
+              <li class="active"><a href="contact.php">Contact</a></li>
               <li><a href="#"></a></li>
               
             </ul>
@@ -145,7 +146,7 @@ $(document).ready(function(){
     <div class="col-md-4 col-sm-6">
       <p><h4></h4></p>
       <h3></h3>
-<p>Please feel free to contact us - tarot@workprogramming.com</p>
+<p>Please feel free to contact us - tarot@fortuneviewer.com</p>
 <p>We are interesting in your feedback.
 
 

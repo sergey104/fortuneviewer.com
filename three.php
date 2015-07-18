@@ -8,7 +8,7 @@
   <meta name="description" content="Ask the tarot" />
   <title>Free tarot reading</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/css31.css">
+  <link rel="stylesheet" href="css/css41.css">
 <script type='text/javascript' src='js/jquery-1.6.4.js'></script>
 <script>
 var gen;
@@ -18,8 +18,14 @@ var future;
 var yesno;
 var sarray;
 var addd;
+var Ppast;
+var Ppresent;
+var Pfurure;
 </script>
 <script type='text/javascript' src='js/run.js'></script>
+<script type='text/javascript' src='js/Past.js'></script>
+<script type='text/javascript' src='js/Present.js'></script>
+<script type='text/javascript' src='js/Future.js'></script>
 <script>
 
 /* DOM Utility Functions from PastryKit */
@@ -46,14 +52,34 @@ Element.prototype.toggleClassName = function (a) {
 /* /DOM Utility Functions from PastryKit */
 
 var init = function() {
-<?php $i = rand(0,21);?>
+<?php 
+$numbers = range(0, 77);
+shuffle($numbers);
+$k=0;
+foreach ($numbers as $number) {
+    if ($k == 0)  $i = $number;
+    if ($k == 1)  $ii = $number;
+    if ($k == 2)  $iii = $number;
+    $k++;
+}
+
+
+
+
+?>
 var a = "<?php echo $i ?>";
+var aa = "<?php echo $ii ?>";
+var aaa = "<?php echo $iii ?>";
 
 
 	document.getElementById('button').addEventListener( 'click', function(){
     
 		document.getElementById('card').toggleClassName('flip');
-	jQuery("#zzz").html("<h4>Your card meaning is:</h4><hr><p>"+day[a]+"<hr><p>"+gen[a]);
+		document.getElementById('card1').toggleClassName('flip');
+		document.getElementById('card2').toggleClassName('flip');
+	jQuery("#zzz").html("<h4>Past:</h4><p>"+Ppast[a]+"<hr><p>");
+	jQuery("#zzzz").html("<h4>Present:</h4><p>"+Ppast[aa]+"<hr><p>");
+	jQuery("#zzzzz").html("<h4>Future:</h4><p>"+Pfuture[aaa]+"<hr><p>");
   }, false);
 }
 
@@ -111,6 +137,7 @@ $(document).ready(function(){
   <div class="row header">
     <div class="col-xs-12 text-center">
       <h1>Free Tarot Reading</h1>
+      <h3>Soon - Card of a Day on Android</h3>
     </div>
   </div>
   <div class="row navigation-bar">
@@ -128,8 +155,8 @@ $(document).ready(function(){
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
-              
-              
+              <li><a href="three.php">Three cards Tarot reading</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
             
           </div>
@@ -141,9 +168,9 @@ $(document).ready(function(){
   <div class="row content">
     <div class="col-md-4 col-sm-6">
       <p><h4>Our free online Tarot card readings are to be considered as a guide only. Interpreting the Tarot takes many years of practice; depending upon the way in which the cards fall or are laid out in a spread has great bearing on their individual meaning.  The readings and meanings given are for entertainment purposes only.</h4></p>
-      <h3>Card of a Day</h3>
-<p>The Tarot Card of the Day will give you an idea of what your day might look like today.  If you don’t like what it has to say, maybe changing your mindset to something more positive or taking some sort of action will give you a better outlook.  If the card is good, then keep the path you’re on</p>
-
+      <h3>Three cards reading</h3>
+<p>With our free Three Cards online Tarot Reading you can explore a single issue in your life by privately consulting the Tarot cards yourself! With explanations of past, present, and future, the Three Card Reading can help you choose the best action to take in your situation, and give you a glimpse of what is to come. Years of intuitive experience with the cards have made this the most accurate free Tarot card reading on the Web! Following the laws of synchronicity, your computer acts as a direct line to your "Higher Self", tapping into the wisdom of the universe. Be sure to concentrate on your question/problem before you click for your reading.</p>
+<p>Now, think of a question and then, click the button below cards for your reading.</p>
 
 <br>
 <center>
@@ -159,18 +186,39 @@ $(document).ready(function(){
 	    <figure class="front-<?php echo $i?>"></figure> 
 
         </div>
+  </div>
+  
+  <!---  -->
+  <p><hr><p><div class="container1" id="container1">
+        <div id="card1">
+	    <figure class="back"></figure>
+	    
+	    <figure class="front-<?php echo $ii?>"></figure> 
 
-     </div>
-<div>
-         <input type="button" value="Look card of a Day" id="button" />
+        </div>
+  </div>
+  <!--   -->
+  <!---  -->
+  <p><hr><p><div class="container1" id="container1">
+        <div id="card2">
+	    <figure class="back"></figure>
+	    
+	    <figure class="front-<?php echo $iii?>"></figure> 
+
+        </div>
+  </div>
+  <!--   -->
+<div class="container1" id="container1">
+         <p><input type="button" value="Look your reading" id="button" />
 </div>
     </div>
 
     <div class="col-md-4 col-sm-6">
-      <h3>Card meaning</h3>
+      <h3>Cards meanings</h3>
       
 <div id="zzz"> </div>
-
+<div id="zzzz"> </div>
+<div id="zzzzz"> </div>
     </div>
   </div>
   

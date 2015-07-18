@@ -1,4 +1,4 @@
- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
   <meta charset="utf-8">
@@ -53,14 +53,14 @@ var a = "<?php echo $i ?>";
 	document.getElementById('button').addEventListener( 'click', function(){
     
 		document.getElementById('card').toggleClassName('flip');
-	jQuery("#zzz").html("<h4>Your card meaning is:</h4><hr><p>"+day[a]+"<hr><p>"+gen[a]);
+	jQuery("#zzz").html("<h4>Your answer is:</h4><b>"+sarray[a]+"</b><hr><p>"+yesno[a]+"<hr><p>"+gen[a]);
   }, false);
 }
 
 window.addEventListener( 'DOMContentLoaded', init, false);
 $(document).ready(function(){
   $("#ref-butn").click(function(){
- //document.getElementById("frm").reset(); 
+ document.getElementById("frm").reset(); 
  location.reload();
   });
 });
@@ -92,25 +92,26 @@ $(document).ready(function(){
      style="display:inline-block;width:728px;height:90px"
      data-ad-client="ca-pub-9236344000383274"
      data-ad-slot="4491102341"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+			<script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
     </div>
     <div class="col-md-4">
       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- tarot320x90 -->
-<ins class="adsbygoogle"
+	  <ins class="adsbygoogle"
      style="display:inline-block;width:320px;height:90px"
      data-ad-client="ca-pub-9236344000383274"
      data-ad-slot="5012479542"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
     </div>
   </div>
   <div class="row header">
     <div class="col-xs-12 text-center">
       <h1>Free Tarot Reading</h1>
+      <h3>Soon - Card of a Day on Android</h3>
     </div>
   </div>
   <div class="row navigation-bar">
@@ -130,6 +131,8 @@ $(document).ready(function(){
               <li><a href="day.php">Card of a Day</a></li>
               <li><a href="three.php">Three cards Tarot reading</a></li>
               <li><a href="contact.php">Contact</a></li>
+              <li><a href="#"></a></li>
+              
             </ul>
             
           </div>
@@ -140,34 +143,26 @@ $(document).ready(function(){
   <!--  Content Area-->
   <div class="row content">
     <div class="col-md-4 col-sm-6">
-      <p><h4>Our free online Tarot card readings are to be considered as a guide only. Interpreting the Tarot takes many years of practice; depending upon the way in which the cards fall or are laid out in a spread has great bearing on their individual meaning.  The readings and meanings given are for entertainment purposes only.</h4></p>
-      <h3>Card of a Day</h3>
-<p>The Tarot Card of the Day will give you an idea of what your day might look like today.  If you don’t like what it has to say, maybe changing your mindset to something more positive or taking some sort of action will give you a better outlook.  If the card is good, then keep the path you’re on</p>
+      <p><h4></h4></p>
+      <h3></h3>
+<p>Please feel free to contact us - tarot@workprogramming.com</p>
+<p>We are interesting in your feedback.
 
 
 <br>
-<center>
-<button class="btn btn-default" id="ref-butn">New reading!</button>
-</center>
+
 </div>
 
     <div class="col-md-4 col-sm-6 text-center ">
       <p><div class="container1" id="container1">
-        <div id="card">
-	    <figure class="back"></figure>
-	    
-	    <figure class="front-<?php echo $i?>"></figure> 
-
-        </div>
-
+        
+<p>Your can order site like this on <a href="http://www.workprogramming.com">Workprogramming.com</a>
      </div>
-<div>
-         <input type="button" value="Look card of a Day" id="button" />
-</div>
+		
     </div>
 
     <div class="col-md-4 col-sm-6">
-      <h3>Card meaning</h3>
+      <h3></h3>
       
 <div id="zzz"> </div>
 

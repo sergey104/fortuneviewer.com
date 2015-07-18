@@ -111,6 +111,7 @@ $(document).ready(function(){
   <div class="row header">
     <div class="col-xs-12 text-center">
       <h1>Free Tarot Reading</h1>
+      <h3>Soon - Card of a Day on Android</h3>
     </div>
   </div>
   <div class="row navigation-bar">
@@ -128,8 +129,8 @@ $(document).ready(function(){
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
-              
-              
+              <li><a href="three.php">Three cards Tarot reading</a></li>
+              <li><a href="contact.php">Contact</a></li>
             </ul>
             
           </div>

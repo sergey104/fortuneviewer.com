@@ -43,6 +43,8 @@ Element.prototype.removeClassName = function (b) {
 Element.prototype.toggleClassName = function (a) {
   this[this.hasClassName(a) ? "removeClassName" : "addClassName"](a);
 };
+
+
 /* /DOM Utility Functions from PastryKit */
 
 var init = function() {
@@ -51,10 +53,10 @@ var a = "<?php echo $i ?>";
 
 
 	document.getElementById('button').addEventListener( 'click', function(){
-    
-		document.getElementById('card').toggleClassName('flip');
+   document.getElementById('card').toggleClassName('flip');
 	jQuery("#zzz").html("<h4>Your answer is:</h4><b>"+sarray[a]+"</b><hr><p>"+yesno[a]+"<hr><p>"+gen[a]);
   }, false);
+  
 }
 
 window.addEventListener( 'DOMContentLoaded', init, false);
@@ -111,6 +113,7 @@ $(document).ready(function(){
   <div class="row header">
     <div class="col-xs-12 text-center">
       <h1>Free Tarot Reading</h1>
+      <h3>Soon - Card of a Day on Android</h3>
     </div>
   </div>
   <div class="row navigation-bar">
@@ -128,6 +131,8 @@ $(document).ready(function(){
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
+              <li><a href="three.php">Three cards Tarot reading</a></li>
+              <li><a href="contact.php">Contact</a></li>
               <li><a href="#"></a></li>
               
             </ul>
@@ -144,10 +149,10 @@ $(document).ready(function(){
       <h3>Ask the Tarot!</h3>
 <p>Have a question about life, love, family, home, business — or just about anything? Ask the tarot! Just type your question in the box below and click the "Ask the Tarot!" button, and a reading just for you will be provided, featuring one of the beautiful cards from Raider Wait Tarot Deck.</p>
 
-<form role="form" id='frm'>
+<form role="form" id='frm' ">
 <div class="form-group">
 <label for="exampleInputEmail1">Question</label>
-<p align="center"><textarea class="form-control" rows="3"></textarea></p>
+<p align="center"><textarea class="form-control" rows="3""></textarea></p>
 </div>
 <center>
 <button type="reset" class="btn btn-default">Clear question</button>

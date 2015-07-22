@@ -18,7 +18,6 @@
 }
 
 
-
 #card { /* поворачивать будем общий контейнер */
 	top: 0;
 	left: 0;
@@ -319,7 +318,8 @@ padding-bottom: 50%;
   color: #999
 }
 body {
-background-color: #FFAA;
+background-color: Azure;
+
 }
 .p {
   text-align: center;

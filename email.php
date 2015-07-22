@@ -149,29 +149,49 @@ $(document).ready(function(){
       <p><h4>EMAIL READINGS FOR FREE</h4></p>
       <p>Do you have a burning, shimmering, highly-specific QUESTION?
 
-      <p>I offer 1-on-1 Tarot readings via email
+      <p>We offer 1-on-1 Tarot readings via email
       <h3>What to do:</h3>
-<p>Email your question to <b>asktarot@fortuneviewer.com.</b> <p>Please be as clear, concise, and specific as possible. Include your full name, birthdate, time & place of birth (if possible). If you’re comfortable including a photo of yourself, that’s very helpful.
+      <p>We answer questions about more or less anything, be it love and relationships, career and money, family and friends.  We can also offer spiritual guidance and general life guidance and assist with the decision making process, if you are facing a tough choice.
 
-<p>You will receive an answer to your question(s) within 36 hours. <p>If you ask on a Saturday, you will receive your answer within 60 hours.
+<p>Our experienced and talented Tarot Readers have a wide range of skills to draw upon: psychic tarot reading, intuitive tarot reading, empathic tarot reading, and psychic-medium tarot reading.
+<p>Email your question to <b>asktarot@fortuneviewer.com.</b> <p>Please be as clear, concise, and specific as possible. Include your name, birthdate, time & place of birth (if possible). If you’re comfortable including a photo of yourself, that’s very helpful.
 
-If you don’t receive a reply within 36 hours, please check the Spam / Trash / Promotions folders in your inbox, just in case my email got filtered there by mistake.
+<p>You will receive an answer to your question(s) within 24 hours. <p>If you ask on a Saturday, you will receive your answer within 48 hours.
 
-Still don’t see anything? Please email me and I’ll get you sorted out. Thank you!
+If you don’t receive a reply within 24 hours, please check the Spam / Trash / Promotions folders in your inbox, just in case my email got filtered there by mistake.
 
-Go forth and make best choices.</p>
+Still don’t see anything? Please email me and I’ll get you sorted out. Thank you! 
+
+Go forth and make best choices. For Free</p>
 
 
 
 </div>
 
     <div class="col-md-4 col-sm-6 text-center ">
-      <p><div class="container1" id="container1">
+      <p><div class="container2" id="container1">
         <div id="card">
-	     <img src="/img/17_Star.jpg" alt="Smiley face" height="400" width="240"> 
-        </div>
-
+	     <img src="/img/2.jpg" alt=">Helena" height="270" width="210"> 
+	     </div>
+      		
      </div>
+     <p align="left">Helena - Medium, Email Tarot Reader</p>
+     <p><div class="container2" id="container1">
+        <div id="card1">
+	     <img src="/img/3.jpg" alt="Anna" height="270" width="210"> 
+        </div>
+        
+			
+     </div>
+     <p align="left">Anna - Psychic, Email Tarot Reader</p>
+     <p><div class="container2" id="container1">
+        <div id="card2">
+	     <img src="/img/4.jpg" alt="Lora" height="270" width="210"> 
+        </div>
+        
+			
+     </div>
+     <p align="left">Lora - Empathic, Psychic, Email Tarot Reader</p>
 		<div>
          
 		</div>

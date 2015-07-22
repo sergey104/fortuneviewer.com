@@ -17,8 +17,20 @@
 
 }
 
+.container2 {
 
+	margin: 5px auto 2px 5px;
+	position:  relative;
+	width: 210px;
+	height: 270px;
+	/* задаем глубину сцене */
+	-webkit-perspective: 600px; /* webkit */
+	-moz-perspective: 600px; /* mozilla */
+	-ms-perspective: 600px; /* IE 10 */
+	-o-perspective: 600px; /* opera когда-то тоже должна начать понимать */
+	perspective: 600px;	/* св-во по стандатам */
 
+}
 #card { /* поворачивать будем общий контейнер */
 	top: 0;
 	left: 0;
@@ -320,6 +332,7 @@ padding-bottom: 50%;
 }
 body {
 background-color: Azure;
+
 }
 .p {
   text-align: center;

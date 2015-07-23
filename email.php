@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="tarot, ask tarot, tarot reading" />
+  <meta name="keywords" content="tarot, ask tarot, tarot reading, fortune viewer, email reading, email tarot reading, psychic reading, oranum,e-mail readings" />
   <meta name="author" content="Sergey" />
-  <meta name="description" content="Ask the tarot" />
-  <title>Free tarot reading</title>
+  <meta name="description" content="Tarot email reading" />
+  <title>Free Tarot Email Reading</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/css31.css">
 <script type='text/javascript' src='js/jquery-1.6.4.js'></script>
@@ -112,7 +112,7 @@ $(document).ready(function(){
   </div>
   <div class="row header">
     <div class="col-xs-12 text-center">
-      <h1>Free Tarot Reading</h1>
+      <h1>Free E-mail Tarot Reading</h1>
       <h3>Soon - Card of a Day on Android</h3>
     </div>
   </div>

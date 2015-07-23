@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="tarot, ask tarot, tarot reading" />
+  <meta name="keywords" content="tarot, ask tarot, tarot reading, card, cards,meaning,meanings,online,reading,readings,taro,tarot,tarro,tarrot, psychic reading, oranum,e-mail readings, online psychics,love and romance" />
   <meta name="author" content="Sergey" />
-  <meta name="description" content="Ask the tarot" />
+  <meta name="description" content="The new Tarot site, offering FREE readings!Absolutely FREE Tarot!">
   <title>Free tarot reading</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/css31.css">

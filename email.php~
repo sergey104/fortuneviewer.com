@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="tarot, ask tarot, tarot reading" />
+  <meta name="keywords" content="tarot, ask tarot, tarot reading, fortune viewer, email reading, email tarot reading, psychic reading, oranum,e-mail readings" />
   <meta name="author" content="Sergey" />
-  <meta name="description" content="Ask the tarot" />
-  <title>Free tarot reading</title>
+  <meta name="description" content="Tarot email reading" />
+  <title>Free Tarot Email Reading</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/css31.css">
 <script type='text/javascript' src='js/jquery-1.6.4.js'></script>
@@ -149,7 +149,7 @@ $(document).ready(function(){
       <p><h4>EMAIL READINGS FOR FREE</h4></p>
       <p>Do you have a burning, shimmering, highly-specific QUESTION?
 
-      <p>I offer 1-on-1 Tarot readings via email
+      <p>We offer 1-on-1 Tarot readings via email
       <h3>What to do:</h3>
       <p>We answer questions about more or less anything, be it love and relationships, career and money, family and friends.  We can also offer spiritual guidance and general life guidance and assist with the decision making process, if you are facing a tough choice.
 

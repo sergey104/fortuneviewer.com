@@ -130,7 +130,6 @@ $(document).ready(function(){
               <li><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
               <li><a href="three.php">Three cards Tarot reading</a></li>
-              <li><a href="email.php">Free email reading</a></li>
               <li class="active"><a href="contact.php">Contact</a></li>
               <li><a href="#"></a></li>
               

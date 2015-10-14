@@ -175,7 +175,7 @@ Go forth and make best choices. For Free</p>
 	     </div>
       		
      </div>
-     <p align="left">Helena - Medium, Email Tarot Reader</p>
+     <p align="left"></p>
      <p><div class="container2" id="container1">
         <div id="card1">
 	     <img src="/img/3.jpg" alt="Anna" height="270" width="210"> 
@@ -183,7 +183,7 @@ Go forth and make best choices. For Free</p>
         
 			
      </div>
-     <p align="left">Anna - Psychic, Email Tarot Reader</p>
+     <p align="left"></p>
      <p><div class="container2" id="container1">
         <div id="card2">
 	     <img src="/img/4.jpg" alt="Lora" height="270" width="210"> 
@@ -191,7 +191,7 @@ Go forth and make best choices. For Free</p>
         
 			
      </div>
-     <p align="left">Lora - Empathic, Psychic, Email Tarot Reader</p>
+     <p align="left"></p>
 		<div>
          
 		</div>

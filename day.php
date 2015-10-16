@@ -115,6 +115,9 @@ $(document).ready(function(){
     </div>
   </div>
   <div class="row navigation-bar">
+  <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -124,18 +127,24 @@ $(document).ready(function(){
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand" href="index.php">Home</a>
           </div>
           <div class="collapse navbar-collapse" id="demo-navbar-collapse">
             <ul class="nav navbar-nav">
               <li><a href="index.php">Ask Tarot</a></li>
               <li class="active"><a href="day.php">Card of a Day</a></li>
-              <li><a href="three.php">Three cards Tarot reading</a></li>
-              <li><a href="contact.php">Contact</a></li>
+              <li><a href="three.php">Three cards Tarot Reading</a></li>
+              <li class="active"><a href="contact.php">Contact</a></li>
+              <li><a href="#"></a></li>
+              
             </ul>
             
           </div>
         </div>
       </nav>
+      <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </div>
   
   <!--  Content Area-->

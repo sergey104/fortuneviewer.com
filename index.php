@@ -1,15 +1,17 @@
  <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="keywords" content="tarot, ask tarot, tarot reading, card, cards,meaning,meanings,online,reading,readings,taro,tarot,tarro,tarrot, psychic reading, oranum,e-mail readings, online psychics,love and romance" />
   <meta name="author" content="Sergey" />
   <meta name="description" content="The new Tarot site, offering FREE readings!Absolutely FREE Tarot!">
   <title>Free tarot reading</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/css31.css">
-<script type='text/javascript' src='js/jquery-1.6.4.js'></script>
+  <link rel="stylesheet" href="css/css31.css"> 
+  <link href="css/dopstyle.css" rel="stylesheet" media="screen">
+<script type='text/javascript' src='js/jquery-1.11.3.js'></script>
 <script>
 var gen;
 var past;
@@ -83,7 +85,7 @@ $(document).ready(function(){
 <body>
 
 
-<div class="container">
+    <div class="container">
   
   <!--  Header Section-->
   <div class="row">
@@ -116,7 +118,11 @@ $(document).ready(function(){
       <h3>Soon - Card of a Day on Android</h3>
     </div>
   </div>
+
   <div class="row navigation-bar">
+  <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
       <nav class="navbar navbar-default" role="navigation">
         <div class="container-fluid">
           <div class="navbar-header">
@@ -126,12 +132,13 @@ $(document).ready(function(){
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
+            <a class="navbar-brand" href="index.php">Home</a>
           </div>
           <div class="collapse navbar-collapse" id="demo-navbar-collapse">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.php">Ask Tarot</a></li>
               <li><a href="day.php">Card of a Day</a></li>
-              <li><a href="three.php">Three cards Tarot reading</a></li>
+              <li><a href="three.php">Three cards Tarot Reading</a></li>
               <li><a href="contact.php">Contact</a></li>
               <li><a href="#"></a></li>
               
@@ -140,6 +147,9 @@ $(document).ready(function(){
           </div>
         </div>
       </nav>
+      <script src="js/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </div>
   
   <!--  Content Area-->
